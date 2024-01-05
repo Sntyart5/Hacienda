@@ -1,0 +1,54 @@
+.services {
+    background-color: #fff;
+    text-align: center;
+
+  }
+
+.imgs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.imgs h2 {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad de 0.5 */
+  padding: 1rem; /* Añadido para mejorar la legibilidad */
+  border-radius: .5rem;
+}
+.imgs a {
+  text-decoration: none;
+}
+.itemS {
+  
+  width: calc(50%);
+  height: 30rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+  
+.rooms,
+.events,
+.winery,
+.restaurant {
+  background-size: cover;
+  background-position: center;
+}
+
+.rooms {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hacienda-44f62.appspot.com/o/rooms.jpg?alt=media&token=adf1b7fd-937b-4e1e-876e-944446418ff4');
+}
+
+.events {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hacienda-44f62.appspot.com/o/events.jpg?alt=media&token=3a32a0cd-c98f-42b2-848d-0631ede80f5a');
+}
+
+.winery {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hacienda-44f62.appspot.com/o/winery.jpg?alt=media&token=4a282d21-5c96-4a48-bbb4-ff9f3c19a940');
+}
+
+.restaurant {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hacienda-44f62.appspot.com/o/restaurant.jpg?alt=media&token=7943c404-178c-4907-b9b0-17e284cde7b6');
+}
+  

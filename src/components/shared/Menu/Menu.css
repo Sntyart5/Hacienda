@@ -1,0 +1,107 @@
+.Cabecera {
+    position: fixed; /* Fix the header at the top of the viewport */
+    width: 100%; /* Span the entire width of the container */
+    align-items: center; /* Center items vertically */
+    color: white; /* Set text color to white */
+    transition: background-color 1s ease; /* Add a smooth transition effect to the background color change */
+    z-index: 2; /* Set the stacking order of the header */
+}
+
+/* Styling when scrolling */
+.isScrolling {
+    background: rgba(0,0,0,0.8);
+    transition: background-color 1s ease; /* Add a smooth transition effect to the background color change */
+}
+.isScrolling li{
+    opacity: 1; /* Add opacity for a semi-transparent effect */
+}
+
+.isScrolling .logo{
+    background-color: #fff ;
+}
+
+.logo{
+    transition: background-color 1s ease; /* Add a smooth transition effect to the background color change */
+    position:relative;
+    width: 8rem;
+    background-color: #000;
+    padding: .5rem;
+    margin: .2rem;
+}
+.linkmn{
+    text-decoration: none;
+    color: #C6A777;
+    transition: .5s;
+}
+.linkmn:hover{
+    border-bottom: solid 1px #C6A777;
+
+}
+
+/* Navigation list styling */
+.Cabecera-ul {
+    display: flex; /* Display list items as a flex container */
+    justify-content: center; /* Center list items horizontally within the container */
+    align-items: center; /* Center list items vertically within the container */
+    margin-bottom: 0; /* Remove default bottom margin from the unordered list */
+}
+
+/* List item styling */
+.Cabecera-li {
+    padding: 1rem; /* Add spacing within each list item */
+    list-style: none; /* Remove default list bullet points */
+    text-decoration: none; /* Remove underlining of links */
+    color: #fff; /* Set text color to white */
+    font-size: 1.1rem; /* Set font size */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    margin: 0 10px; /* Add margin to separate list items */
+}
+
+/* Hover effect for list items */
+.Cabecera-li:hover {
+    color: #C6A777; /* Change text color to orange on hover */
+}
+
+/* Active state for the current section */
+.Cabecera-li.active {
+    color: #C6A777; /* Change text color to orange for the active link */
+}
+
+
+@media screen and (max-width:480px){
+    
+    .Cabecera-button{
+        display: flex;
+    }
+    .Cabecera-nav{
+        width:100%;
+        background: rgba(0,0,0,0.3);
+        margin-top: 5%;
+        display: flex;
+        flex-flow: column nowrap;
+        border-radius: 5%;
+        justify-content: center;
+        align-items: center;
+        height:0vh;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+    .Cabecera-nav.isActive{
+        height:40vh;
+        opacity: 1;
+    }
+    .Cabecera-ul{
+        flex-direction: column;
+    }
+    .Cabecera-li{
+        margin: .8em 0;
+    }
+    .Cabecera{
+        padding:1em 2rem;
+        position: relative;
+    }
+    .isScrolling {
+        background-color: transparent;
+    }
+}

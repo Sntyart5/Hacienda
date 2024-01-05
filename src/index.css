@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;}
+
+
+body{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/hacienda-44f62.appspot.com/o/banner%7D.jpg?alt=media&token=44a2e231-1e7a-4636-a234-1f564c52dd9a');
+  background-size: cover;
+  background-attachment: fixed;
+}

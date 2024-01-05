@@ -1,0 +1,27 @@
+.Events{
+    padding: 7rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.eventsbanner{
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/hacienda-44f62.appspot.com/o/WEDDINGS.jpg?alt=media&token=f3f99cb7-25ed-4998-a5d2-ce5469821a01");
+}
+
+.eventsbanner h1{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+  
+
+  

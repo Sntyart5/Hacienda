@@ -1,0 +1,10 @@
+.location{
+    padding: 7rem 0 0 0;
+    background-color: #fff;
+    text-align: center;
+}
+.map{
+    margin: 2rem;
+    height: 40rem;
+    width: 70%;
+}

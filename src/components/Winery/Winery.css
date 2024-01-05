@@ -1,0 +1,41 @@
+.Description{
+    padding: 7rem;
+    background-color: #fff;
+}
+
+.Description p{
+    font-size: 1.2rem;
+}
+.Description a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #C6A777;
+    font-weight: bold ; /* Añadir negrita al texto */
+}
+.Description a:hover{
+    color: gray;
+}
+
+.videobanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 101vh; /* Ajusta la altura según tus necesidades */
+    position: relative;
+  }
+  
+.videobanner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta el tamaño del video para cubrir completamente el contenedor */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Coloca el video detrás del contenido del div */
+}
+  
+.videobanner h1 {
+    font-size: 4.5rem;
+    color: #fff;
+}

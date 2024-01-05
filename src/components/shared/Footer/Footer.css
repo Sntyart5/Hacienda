@@ -1,0 +1,44 @@
+.Footer{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+.Footer p{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+.Footer h1{
+    font-size: 1.5rem;
+    color: #C6A777; /* Change text color to orange on hover */
+}
+.itemhc{
+    width: calc(20%);
+    margin: calc(2.5%);
+    align-items: center; /* Añadido para centrar verticalmente */
+}
+.fhacienda{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.dev{
+    padding: .5rem;
+    background-color: #fff;
+    color: #C6A777; /* Change text color to orange on hover */
+    text-align: center;  
+}
+.loca{
+    margin-bottom: 1rem;
+}
+.contact{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+.redes{
+    display: flex;
+}
+.red{
+    margin:2rem 2rem 0 0;
+}
+

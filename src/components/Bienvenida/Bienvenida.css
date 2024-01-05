@@ -1,0 +1,29 @@
+.Bienvenida{
+    padding-top: 7rem ;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bienvenida h1{
+    color: #C6A777;
+    margin-bottom:1rem;
+}
+
+.item{
+    width: calc(45%);
+    text-align: center;
+    align-items: center; /* Añadido para centrar verticalmente */
+}
+.descrip{
+    padding: 1rem;
+    display: block;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 100%;
+
+}
