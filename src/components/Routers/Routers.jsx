@@ -13,7 +13,7 @@ export function Ruta(){
         
         <Routes>
 
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/rooms" element={<Rooms />}/>
         <Route path="/winery" element={<Winery />}/>
         <Route path="/events" element={<Events />}/>
