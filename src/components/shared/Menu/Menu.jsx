@@ -82,7 +82,7 @@ export function Menu() {
         <nav className={`Cabecera ${menu ? 'isActive' : ''} ${scrolling ? 'isScrolling' : ''}`}>
           <ul className="Cabecera-ul ">
             
-            <li onClick={() => scrollToSection('home')} className={`Cabecera-li ${activeSection === 'home' ? 'active' : ''}`}><Link className='linkmn' to="/home">HOME</Link> </li>
+            <li onClick={() => scrollToSection('home')} className={`Cabecera-li ${activeSection === 'home' ? 'active' : ''}`}><Link className='linkmn' to="/">HOME</Link> </li>
             <li onClick={() => scrollToSection('about')} className={`Cabecera-li ${activeSection === 'about' ? 'active' : ''}`}><Link className='linkmn' to="/rooms">ROOMS</Link> </li>
             <img className='logo' src="https://firebasestorage.googleapis.com/v0/b/hacienda-44f62.appspot.com/o/logo1-removebg-preview.png?alt=media&token=ecf62a60-f0ea-4ca2-b728-5602083b6682" alt="" />
             <li onClick={() => scrollToSection('porfolio')} className={`Cabecera-li ${activeSection === 'porfolio' ? 'active' : ''}`}><Link className='linkmn' to="/winery">WINNERY</Link> </li>
